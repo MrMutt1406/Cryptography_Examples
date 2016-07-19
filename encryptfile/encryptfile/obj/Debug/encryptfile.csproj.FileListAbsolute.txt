@@ -1,0 +1,6 @@
+c:\users\m1406_000\documents\visual studio 2015\Projects\encryptfile\encryptfile\bin\Debug\encryptfile.exe.config
+c:\users\m1406_000\documents\visual studio 2015\Projects\encryptfile\encryptfile\bin\Debug\encryptfile.exe
+c:\users\m1406_000\documents\visual studio 2015\Projects\encryptfile\encryptfile\bin\Debug\encryptfile.pdb
+c:\users\m1406_000\documents\visual studio 2015\Projects\encryptfile\encryptfile\obj\Debug\encryptfile.csprojResolveAssemblyReference.cache
+c:\users\m1406_000\documents\visual studio 2015\Projects\encryptfile\encryptfile\obj\Debug\encryptfile.exe
+c:\users\m1406_000\documents\visual studio 2015\Projects\encryptfile\encryptfile\obj\Debug\encryptfile.pdb
