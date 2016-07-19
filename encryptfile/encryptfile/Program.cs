@@ -11,8 +11,8 @@ namespace encryptfile
     {
         static void Main(string[] args)
         {
-            //at is a thing we go to
-            at:
+            //A loop
+            while (true) { 
             //The console writes a line that askes for a input e is for encrypting d is for decrypting
             Console.WriteLine("Write e to encrypt and write d to decrypt");
             //user is the input we get
@@ -23,7 +23,7 @@ namespace encryptfile
                 //myCrypt is the class to encrypting and encrypthing
                 encryptfile.Class1 myCrypt = new Class1();
                 //Encryption key can be changed but has to be the same length
-                string key = "123456789portbv";
+                string key = "123456789qwertyu";
                 //Getting all the bytes from TestFile.txt (its a text file so the bytes are text)
                 byte[] fromFile = File.ReadAllBytes("TestFile.txt");
                 //Now it changes the bytes(text) to the encrypted text. As you can see we are using the myCrypt and we pass the agruments.
@@ -38,14 +38,13 @@ namespace encryptfile
                 // Making an myCrypt again
                 encryptfile.Class1 myCrypt = new Class1();
                 //The encryption key
-                string key = "123456789qwertyt";
+                string key = "123456789qwertyu";
                 //Everything asbefore but decrypting
                 byte[] fromFile = File.ReadAllBytes("TestFile.txt");
                 File.WriteAllBytes("TestFile.txt",
                     (myCrypt.Crypt(encryptfile.CryptMethod.DECRYPT, encryptfile.CryptClass.AES, fromFile, key) as byte[]));
             }
-            //going to at
-            goto at;
+            }
 
         }
     }
